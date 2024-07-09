@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import '../widget/home/card_category.dart';
@@ -193,13 +192,13 @@ class _HomePageState extends State<HomePage> {
                 imagePath: 'assets/coffee_1.jpg',
                 title: 'Cappucino',
                 rating: '4.8/5.0',
-                time: '10:00 - 22:00 WIB',
+                time: '09:00 - 21:00 WIB',
               ),
               const Home_Card_Favorit(
                 imagePath: 'assets/coffee_2.jpg',
                 title: 'Americano',
                 rating: '4.6/5.0',
-                time: '10:00 - 22:00 WIB',
+                time: '08:00 - 20:00 WIB',
               ),
               const Home_Card_Favorit(
                 imagePath: 'assets/coffee_3.jpg',

@@ -1,3 +1,4 @@
+import 'package:coffee_app/pages/detail_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -19,7 +20,14 @@ class Home_Card_Favorit extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {},
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const DetailPage(),
+          ),
+        );
+      },
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 15),
         child: SizedBox(
