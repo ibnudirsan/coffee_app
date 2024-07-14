@@ -87,7 +87,8 @@ class _DetailPageState extends State<DetailPage> {
                       ),
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(16),
+                      padding:
+                          const EdgeInsets.only(left: 16, top: 10, bottom: 5),
                       child: Text(
                         "Coffee Americano",
                         style: GoogleFonts.montserrat(

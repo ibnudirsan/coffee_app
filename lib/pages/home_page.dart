@@ -1,3 +1,4 @@
+import 'package:coffee_app/pages/detail_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -145,7 +146,14 @@ class _HomePageState extends State<HomePage> {
                 child: Row(
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const DetailMenu(),
+                          ),
+                        );
+                      },
                       child: const Home_Card_Category(
                         imagePath: 'assets/tubruk.png',
                         title: 'Tubruk',
