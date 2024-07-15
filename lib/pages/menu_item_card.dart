@@ -20,7 +20,7 @@ class MenuItemCard extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => DetailMenuCoffee(),
+                    builder: (context) => const DetailMenuCoffee(),
                   ),
                 );
               },
@@ -47,7 +47,7 @@ class MenuItemCard extends StatelessWidget {
                       children: [
                         Text(
                           name,
-                          style: TextStyle(
+                          style: const TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                         Text(
@@ -58,10 +58,10 @@ class MenuItemCard extends StatelessWidget {
                             fontWeight: FontWeight.w300,
                           ),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 5,
                         ),
-                        Text(
+                        const Text(
                           "Rp. 20.000",
                           style: TextStyle(
                             fontSize: 18,

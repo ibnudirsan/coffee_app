@@ -102,7 +102,7 @@ class _HomePageState extends State<HomePage> {
                                 icon: const Icon(
                                   Icons.notifications_active_rounded,
                                   color: Colors.white,
-                                  size: 20,
+                                  size: 40,
                                 ),
                               ),
                             )
